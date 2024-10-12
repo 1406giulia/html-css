@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Boletim</title>
+    <style>
+        body > {
+        font-family: Arial, Helvetica, sans-serif;
+        
+        }
+        table {
+            border-collapse: collapse;
+        }
+        th, td {
+            border: 1px solid black;
+            padding: 10px;
+            text-align: center;
+        }
+        caption{
+            font-size: 1.3em;
+            font-weight: bold;
+            padding: 10px;
+        }
+        tr> th {
+            background-color: white;
+            color: black;
+        } 
+      thead > tr >  th {
+        background-color: gray;
+        color: white;
+      }
+      tfoot> tr > th{
+        background-color: gray;
+        color: white;
+      }
+      th.destaque {
+        background-color: gray;
+        color: white;
+      }
+   
+    </style>
+</head>
+<body>
+   <table>
+   
+    <thead>
+        <tr>
+            <th rowspan="2">Areas</th>
+            <th rowspan="2">Disciplinas</th>
+            <th colspan="2">Notas</th>
+<th rowspan="3">Media</th>
+        <tr>
+        
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <th rowspan="4">Exatas</th>
+            <td>Matematíca</td>
+            <td colspan="2">8.0</td>
+            <td>8.5</td>
+    
+        </tr>
+        <tr>
+            <td>Física</td>
+            <td colspan="2">7.5</td>
+            <td>8.0</td>
+        </tr>
+<tr>
+    <td>Química</td>
+    <td colspan="2">6.0</td>
+    <td>7.0</td>
+</tr>
+<tr>
+    <td>Biologia</td>
+    <td colspan="2">9.0</td>
+    <td>8.0</td>
+</tr>
+<tr>
+  <th colspan="4" class="destaque">Media de exatas</th>
+    <td>8.5</td>
+</tr>
+<tr>
+    <th rowspan="4">Humanas</th>
+    <td>Historia</td>
+    <td colspan="2">10.0</td>
+    <td>10,0</td>
+</tr>
+<tr>
+    <td>Geografia</td>
+    <td colspan="2">8.0</td>
+    <td>8.0</td>
+</tr>
+
+    
+    </tbody>
+    <tfoot>
+        <tr>
+            <th colspan="4"> Medias de Humanas</th>
+        <td>9.0</td>
+        </tr>
+    </tfoot>
+   </table> 
+</body>
+</html>

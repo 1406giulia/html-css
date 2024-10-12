@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>tabelas</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        table {
+            width: 500px;
+            border-collapse: collapse;
+        }
+        caption {
+            font-size: 1.3em;
+            font-weight: bolder;
+            padding: 8px;
+        }
+        th, td {
+            border: 1px solid black;
+            padding: 8px;
+        }
+        .cnome {
+            background-color: palevioletred;
+        }
+    </style>
+</head>
+<body>
+    <h1>Exercicios de tabelas</h1>
+    <table>
+        <caption>
+            cadastro
+        </caption>
+        <colgroup>
+        <col class="cnome">
+        <col class="csexo">
+        <col class="cidade">
+        <col class="cprof">
+    </colgroup>
+       <tr> <th scope="col">Nome</th>
+        <th scope="col">Sexo</th>
+        <th scope="col">Idade</th>
+        <th scope="col">Profissão</th>
+       </tr>
+       <tr>
+        <td>Ana Maria</td>
+        <td>F</td>
+        <td>35 anos</td>
+        <td>Jornalista</td>
+       </tr>
+       <tr>
+        <td>Carolina</td>
+        <td>F</td>
+        <td>24</td>
+        <td>Modelo</td>
+       </tr>
+       <tr>
+        <td>João</td>
+        <td>M</td>
+        <td>45</td>
+        <td>Advogado</td>
+       </tr>
+       <tr>
+        <td>Luiz</td>
+        <td>M</td>
+        <td>37</td>
+        <td>Corretor</td>
+       </tr>
+    </table>
+</body>
+</html>
