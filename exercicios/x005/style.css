@@ -1,0 +1,67 @@
+@charset "UTF-8";
+
+body{
+  background-image: url(imagens/Fondo\ De\ Textura\ Verde\ Creativo\ De\ Mezcla\ De\ Textura\ de\ Pantalla\ Imagen\ para\ Descarga\ Gratuita\ -\ Pngtree.jpg);
+}
+header{
+    background-image: url(imagens/vanillacinnablog.jpg);
+    display: block;
+ height: 20vh;
+    text-align: center;
+    background-position: right center;
+    background-attachment: fixed;
+    padding: 30px;
+    color: #78833e;
+    border-radius: 20px;
+    background-size: cover;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+header> p{
+    color: #5f1b1a;
+}
+nav>a{
+    color: #5a452a;
+    text-decoration: none;
+    padding: 18px;
+}
+nav> a:hover{
+    color: #ad8653;
+}
+main {
+    background-color: #bea584b0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+    font-size: 1em;
+    
+}
+section >h2{
+    color: #5f1b1a;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+iframe{
+    margin: auto;
+    display: block;
+    width: 500;
+    height: 320;
+    
+    
+}
+ol> li> a{
+    text-decoration: none;
+    color: #9c794c;
+   
+    font-size: 1.2em;
+}
+li>a:active{
+    color: #5f1b1a ;
+}
+li>a:hover{
+    color: #be4c68;
+}
+
+
+    
+   
+    
