@@ -87,9 +87,10 @@ footer{
     background-color: #a6b944;
 }
 footer> strong {
-    display: inline-block;
+
     height: 20px;
     padding: 60px;
+    text-align: center;
 }
  
 
