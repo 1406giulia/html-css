@@ -1,6 +1,7 @@
 @charset "UTF-8";
 
 body{
+  margin: 2px;
   background-image: url(imagens/Fondo\ De\ Textura\ Verde\ Creativo\ De\ Mezcla\ De\ Textura\ de\ Pantalla\ Imagen\ para\ Descarga\ Gratuita\ -\ Pngtree.jpg);
 }
 header{
@@ -48,18 +49,54 @@ iframe{
     
     
 }
-ol> li> a{
+ol> ul> a{
     text-decoration: none;
     color: #9c794c;
-   
-    font-size: 1.2em;
+  
+
 }
-li>a:active{
+ul>a:active{
     color: #5f1b1a ;
 }
-li>a:hover{
+ul>a:hover{
     color: #be4c68;
+    transition-duration: 0.5s;
+} 
+section> p{
+    text-align: center;
 }
+section> ol > li{
+    color: #9c794c;
+    text-align: center;
+}
+ol> li:hover{
+    color: #be4c68;
+    transition-duration: 0.5s;
+}
+section> img{
+    margin: auto;
+    display: block;
+    width: 400px;
+    height: 220px;
+}
+footer> img{
+    width: 200px;
+    height: 100px;
+}
+footer{
+    background-color: #a6b944;
+}
+footer> strong {
+    display: inline-block;
+    height: 20px;
+    padding: 60px;
+}
+ 
+
+
+
+
+
 
 
     
